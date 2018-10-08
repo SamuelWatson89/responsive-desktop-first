@@ -1,14 +1,28 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container { 
+    height: 100%;
+}
 .column {
     float: left;
-    height: 50px;
+    height: 50%;
     width: 30%;
     background: #e84610;
     margin: 0 10px;
 }
 
+.full-height {
+    height: 100%;
+}
+
 @media ( max-width: 991px) {
     .column {
         background: lightblue;
+        height: 30%;
     }
 }
 
@@ -17,5 +31,6 @@
         background: #000;
         width: 100%;
         margin: 10px 0;
+        height: 50px;
     }
 }
